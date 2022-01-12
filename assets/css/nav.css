@@ -1,0 +1,234 @@
+.top-nav .grey-bg {
+
+    background-color: #2F3B49;
+    color: white !important;
+}
+
+.top-nav .grey-bg .nav-link {
+    color: white !important;
+}
+
+.top-nav .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+
+.top-nav .dropdown-item:focus, .dropdown-item:hover {
+    color: #4327A9;
+    background-color: #F2F8FF;
+}
+.top-nav .language-switcher .dropdown-menu{
+    min-width: 0rem;
+    border-radius: 0;
+    box-shadow: 0px 3px 9px rgba(0, 36, 162, 0.2);
+    border-color: #9DB6F8;
+}
+
+
+.top-nav .top-nav-service .dropdown-menu {
+    border-radius: 0;
+    box-shadow: 0px 3px 9px rgba(0, 36, 162, 0.2);
+    border-color: #9DB6F8;
+    min-width: 8rem;
+    text-align: right;
+}
+/* .top-nav .dropdown-menu {
+    padding: 0;
+} */
+
+.top-search-custom-style {
+    width: 65%;
+    justify-content: center;
+}
+
+.top-search-custom-style .form-control:focus, .btn.focus, .btn:focus {
+    box-shadow: none !important;
+}
+
+.top-search-custom-style .navBarSearchForm {
+    width: 75% !important;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    background-color: #F4F4FB;
+    border-color: #D1CBDA;
+}
+
+.navbar-nav {
+    gap: 16px;
+    margin-left: 35px;
+}
+
+.navbar-nav-left {
+    margin-right: 35px;
+}
+
+.navbar-nav-left .nav-link {
+    display: flex;
+    gap: 7px;
+}
+
+
+.navbar-nav-right {
+    height: 55px;
+    align-items: center;
+    position: relative;
+}
+
+
+.navbar-nav-right .navbar-wishlist-counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A2BBFC;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.navbar-nav-right .navbar-bag-counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FAD370;
+    position: absolute;
+    top: 0px;
+    right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+.navbar-nav-right .nav-item {
+    height: 55px;
+    display: contents;
+}
+
+.navbar-nav-right .nav-link:hover{
+    background-color: #E9E9F6;
+    transition: all 0.3s;
+    border-radius: 2px;
+}
+
+.nav-link {
+    color: #080910 !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    font-style: normal;
+}
+
+.top-search-custom-style .top-search-custom-btn {
+    border-radius: 0 !important;
+    background-color: #FFB016;
+    color: #293543;
+    font-weight: 500;
+    width: 100px;
+    height: 38px;
+    font-size: 14px !important;
+    filter: drop-shadow(0px 3px 9px rgba(255, 101, 65, 0.2));
+}
+
+#navbarSupportedContent {
+    justify-content: space-between;
+}
+
+.user-account .dropdown-menu {
+   
+    text-align: center;
+    width: 215px;
+    height: 195px;
+    border-radius: 0;
+    top: 66px;
+    right: 50px !important;
+    left: auto;
+    border: 1px solid #9EB7F9;
+    box-shadow: 0px 3px 9px rgba(0, 36, 162, 0.2);
+}
+
+.user-account .user-account-loging a, .user-account  .user-account-register a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 175px;
+    height: 50px;
+    color: white;
+}
+
+.user-account .user-account-loging a {
+    background-color: #2F3B49;
+}
+
+.user-account  .user-account-register a {
+    color: #2F3B49;
+    background-color: transparent;
+    margin-top: 10px;
+   border: 1px solid #2F3B49;
+}
+
+.navbar-nav-right .user-account h6 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #080910;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Mega Menu*/
+.has-megamenu .dropdown-toggle::after, .navbar-nav-right .dropdown-toggle::after{
+
+    display: none;
+}
+
+.has-megamenu .container {
+    display: block;
+}
+.has-megamenu .dropdown-menu {
+
+    border-radius: 0;
+    border-left: 1px solid #9DB7F8;
+    border-right: 1px solid #9DB7F8;
+    border-bottom: 1px solid #9DB7F8;
+    border-top: none;
+}
+
+.has-megamenu .dropdown-menu.megamenu.show {
+    padding: 40px;
+}
+
+.has-megamenu .megamenu .megamenu-second-row {
+    margin-top: 20px;
+}
+
+.has-megamenu .megamenu .col-megamenu h6 {
+    color: #080910;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.has-megamenu .megamenu .col-megamenu .list-unstyled li {
+    margin-bottom: 8px;
+}
+.has-megamenu .megamenu .col-megamenu .list-unstyled li a{
+
+    word-wrap: break-word;
+    color: #414351;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+
+.has-megamenu .megamenu .col-megamenu .list-unstyled li a:hover {
+    color: #3F29A8;
+}

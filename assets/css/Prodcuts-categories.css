@@ -1,0 +1,124 @@
+/*product categories*/
+
+.Product-categories-wraper {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.Product-categories-wraper .Product-categories-heading {
+    text-align: center;
+    padding: 80px 0 40px 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #080910;
+}
+
+
+
+.categories-gallery-text {
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s;
+}
+
+
+.categories-gallery-btn {
+    background-color: #FFB016;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    /* padding: 16px 32px; */
+    height: 45px;
+    cursor: pointer;
+    width: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/*gallery hover effect  */
+
+
+.Product-categories-galler-content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Product-categories-galler-content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.Product-categories-galler-content:hover .content-overlay {
+    opacity: 1;
+}
+
+.categories-gallery-img {
+    width: 100%;
+}
+
+.categories-gallery-btn-wraper {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.Product-categories-galler-content:hover .categories-gallery-btn-wraper {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.Product-categories-galler-content:hover .categories-gallery-text {
+    display: none;
+    transition: all 0.4s;
+}
+
+.categories-gallery-btn-wraper h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.categories-gallery-btn-wraper p {
+    color: #fff;
+   
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}

@@ -1,0 +1,49 @@
+.discount-section-wraper .discount-section-banner {
+    background-image: url(../Img/discount-banner.png);
+    height: 375px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.discount-section-wraper .discount-section-text-pannel {
+    background-color: white;
+    padding: 40px;
+    width: 570px;
+    margin-right: 130px;
+    height: 230px;
+}
+
+.discount-section-wraper .discount-section-text-pannel h3 {
+
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.discount-section-wraper .discount-section-text-pannel p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+
+}
+
+.discount-section-wraper .discount-section-text-pannel .discount-section-btn {
+    background-color: #2F3B49;
+    color: white;
+    border-radius: 0;
+    font-size: 12px;
+    filter: drop-shadow(0px 3px 9px rgba(0, 36, 162, 0.2));
+    padding: 12px 15px;
+}
+
+.discount-section-wraper .discount-section-text-pannel .discount-section-btn span {
+    margin-left: 3px;
+}

@@ -1,0 +1,83 @@
+/*footer-top-wraper*/
+
+.footer-top-wraper {
+    background-color: white;
+    padding: 40px 0 80px 0;
+}
+
+.footer-top-wraper .content-top h3 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #080910;
+}
+
+.footer-top-wraper .content-bottom h3 {
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #080910;
+}
+
+.footer-top-wraper .content-top .phone-number {
+    font-weight: 600;
+}
+
+.footer-top-wraper .content-top ul, .content-bottom ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-top-wraper .content-top ul li, .content-bottom ul li{
+
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-top-wraper .content-top ul li a{
+    text-decoration: none;
+    color: #414351;
+    font-size: 17px;
+}
+
+.footer-top-wraper .content-top ul li a:hover {
+    color: #4724AA;
+}
+
+.footer-top-wraper .content-top .social-media {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.bottom-content-wraper {
+    padding-top: 40px;
+}
+
+
+.content-bottom ul li {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.footer-bottom-wraper {
+    background-color: #2F3B49;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #F2F8FF;
+}
+
+.footer-bottom-content p {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+} 

@@ -1,0 +1,67 @@
+/*news-letter-wraper */
+
+.news-letter-wraper {
+    background-image: url(../Img/news-letter-bg.png);
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+}
+
+.news-letter-wraper .news-letter-content .top-search-custom-style {
+    width: auto;
+}
+
+.news-letter-wraper .news-letter-content h3 {
+
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 32px;
+    padding-bottom: 15px;
+    
+}
+
+.news-letter-wraper .news-letter-content p {
+
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.news-letter-wraper .news-letter-content .top-search-custom-style .navBarSearchForm {
+
+    width: 75% !important;
+}
+
+.news-letter-wraper .news-letter-content .top-search-custom-style .top-search-custom-btn {
+    width: 135px;
+}
+
+.news-letter-wraper .news-letter-content .news-letter-check-box {
+
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+
+.news-letter-wraper .news-letter-content .news-letter-check-box .form-check-input::before {
+    
+        top: 0.1rem;
+        left: -1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #7f393900;
+        border: 1px solid #007bff;
+    
+}
+
+.news-letter-wraper .news-letter-content .news-letter-check-box a {
+    color: #A2BBFC;
+    text-decoration: none;
+}

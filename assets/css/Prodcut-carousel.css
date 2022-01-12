@@ -1,0 +1,242 @@
+/*Popular-goods-Section*/
+
+.Popular-goods-wraper {
+    padding: 0 20px 0px 20px;
+}
+
+.popular-goods-heading {
+    text-align: center;
+}
+
+.popular-goods-heading h2 {
+    margin: 65px 0 40px 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #080910;
+}
+
+.Newly-arrived .popular-goods-heading h2 {
+    color: white;
+}
+
+.listing-product .Popular-goods-product-wraper,
+.Popular-goods .Popular-goods-product-wraper {
+    position: relative;
+    background-color: white;
+    padding: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    /* box-shadow: 0px 4px 18px rgba(135, 121, 154, 0.45); */
+    /* height: 405px; */
+}
+
+.Popular-goods .Popular-goods-product-wraper .Popular-goods-product-wishlist,
+.listing-product .Popular-goods-product-wraper .Popular-goods-product-wishlist {
+
+    margin-bottom: 20px;
+}
+
+.Popular-goods .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon,
+.listing-product .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon {
+
+    width: 28px;
+    height: 22px;
+    position: absolute;
+    right: 5%;
+}
+
+.Popular-goods-product-wishlist .sale-red-bg, .New-tag, .popular-tag {
+    background-color: #EB5059;
+    color: white;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+}
+
+.Popular-goods-product-wishlist .popular-tag {
+    background-color: #FAD370;
+    color: black;
+}
+
+.Popular-goods-product-wishlist .New-tag {
+    background-color: #A2BBFC;
+    color: black;
+}
+
+.Popular-goods .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon a:hover svg,
+.listing-product .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon a:hover svg {
+    fill: #9EB8F9;
+}
+
+.Popular-goods .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon img,
+.listing-product .Popular-goods-product-wraper .Popular-goods-product-wishlist-icon img {
+    width: 100%;
+}
+
+.Popular-goods-product-img {
+    width: 230px;
+    max-width: 100%;
+    height: 180px;
+    margin: 0 auto 40px auto;
+}
+
+.Popular-goods-product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Popular-goods .Popular-goods-product-content,
+.listing-product .Popular-goods-product-content {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Popular-goods-product-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.Popular-goods-product-price {
+    font-weight: 300;
+    font-size: 20px;
+    color: #2F3B49;
+}
+
+
+.Popular-goods-wraper .Popular-goods .Popular-goods-product-wraper .product-cart-btn,
+.listing-product .Popular-goods-product-wraper .product-cart-btn,
+.Newly-arrived .Popular-goods .Popular-goods-product-wraper .product-cart-btn {
+    background-color: #FFB016 !important;
+    height: 60px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2F3B49;
+    text-decoration: none;
+    transition: all 2s ease;
+    width: 90%;
+    transform: translate(13px, -10px);
+
+
+}
+
+.Newly-arrived .Popular-goods .Popular-goods-product-wraper:hover .product-cart-btn,
+.listing-product .Popular-goods-product-wraper:hover .product-cart-btn,
+.Popular-goods-wraper .Popular-goods .Popular-goods-product-wraper:hover .product-cart-btn {
+
+    display: flex;
+    transition: all 2s ease;
+}
+
+.Newly-arrived .Popular-goods .Popular-goods-product-wraper .product-cart-btn img,
+.listing-product .Popular-goods-product-wraper .product-cart-btn img,
+.Popular-goods-wraper .Popular-goods .Popular-goods-product-wraper .product-cart-btn img {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.Popular-goods .owl-nav {
+    display: block !important;
+}
+
+
+.Popular-goods .owl-prev, .Popular-goods .owl-next {
+
+    position: absolute;
+    top: 40%;
+    transform: translate(0%, -40%);
+    background-color: #FFB016 !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 50% !important;
+}
+
+.Popular-goods .owl-prev {
+    left: 0;
+}
+
+.Popular-goods .owl-next {
+    right: 0;
+}
+
+
+.Newly-arrived {
+    padding: 0 20px 0px 20px;
+    background-color: #2F3B49;
+}
+
+
+
+.action-card {
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: white;
+    animation: modalopen 0.4s ease-in-out;
+    z-index: 5;
+    height: 70px;
+}
+
+.Popular-goods-product-wraper:hover .action-card {
+    box-shadow: rgb(135 121 154 / 45%) 0px 10px 14px 0px;
+    display: block;
+    bottom: -59px;
+    left: 0;
+    animation: modalopen 0.4s ease-in-out;
+    z-index: 20;
+}
+
+.listing-product .Popular-goods-product-wraper:hover .action-card {
+    bottom: -290px;
+}
+
+.Popular-goods-product-wraper:hover .product-details {
+    display: block !important;
+    bottom: -220px;
+}
+
+.Popular-goods-product-wraper:hover {
+    box-shadow: 0px 4px 18px rgba(135, 121, 154, 0.45);
+}
+
+@keyframes modalopen {
+    from {
+
+        opacity: 0;
+    }
+
+    to {
+
+        opacity: 1;
+    }
+}
+
+
+.Newly-arrived .owl-carousel .owl-stage-outer,
+.Popular-goods-wraper .owl-carousel .owl-stage-outer {
+    padding-bottom: 75px !important;
+}
+
+.Newly-arrived .owl-carousel .owl-dots,
+.Popular-goods-wraper .owl-carousel .owl-dots {
+    display: none;
+}

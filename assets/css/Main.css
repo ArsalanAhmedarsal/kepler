@@ -1,0 +1,38 @@
+@import url("nav.css");
+@import url("Main-slider.css");
+@import url("Prodcut-carousel.css");
+@import url("discount-section.css");
+@import url("Prodcuts-categories.css");
+@import url("Testimonial.css");
+@import url("why-choose-us.css");
+@import url("News-letter.css");
+@import url("footer.css");
+@import url("Listing.css");
+@import url("checkbox.css");
+@import url("range-default-theme.css");
+@import url("detail.css");
+@import url("shopping-cart.css");
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E9E9F6;
+}
+
+/* .container {
+   width: 1350px !important;
+} */
+
+/* .Popular-goods .item:first-child::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(272.44deg, #2F3B49 -37.7%, rgba(47, 59, 73, 0) 78.3%);
+    transform: rotate(-180deg);
+    height: 100%;
+    width: 50px;
+    bottom: 0;
+} */
+
+
+
+
+

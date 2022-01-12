@@ -1,0 +1,429 @@
+@media (min-width: 1600px) {
+
+    .Popular-goods .Popular-goods-product-content {
+        font-size: 15px;
+    }
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+
+        max-width: 1385px;
+    }
+
+    .news-letter-wraper .news-letter-content .top-search-custom-style {
+        width: 82%;
+    }
+
+    .shopping-cart-wraper .cart-wraper .cart-product .cart-product-name {
+
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    .shopping-cart-wraper .cart-wraper .cart-product-subtotal,
+    .shopping-cart-wraper .cart-wraper .cart-product-price {
+
+        font-size: 20px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .news-letter-wraper .news-letter-content .top-search-custom-style .navBarSearchForm {
+        width: 70% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1102px) {
+
+    .top-search-custom-style .navBarSearchForm {
+
+        width: 63% !important;
+    }
+
+    .navbar .megamenu {
+        left: 0 !important;
+
+
+    }
+
+
+    .detail-wraper .detail-slider-wraper .owl-thumbs .owl-thumb-item {
+
+        max-width: 60px;
+        height: 60px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1024px) {}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .top-nav {
+        display: none;
+    }
+
+    .navbar-nav-right {
+        height: auto;
+    }
+
+    .Why-choose-us-wraper .Why-choose-us .Why-choose-us-content {
+        width: 100%;
+    }
+
+    .footer-top-wraper .content-top h3 {
+        font-size: 20px;
+    }
+
+    .footer-top-wraper .content-bottom h3 {
+        font-size: 20px;
+    }
+
+    .content-bottom ul li {
+
+        margin-right: 15px;
+    }
+
+
+    .main-slider-content h2 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .main-slider-content h4 {
+
+        margin-bottom: 16px;
+    }
+
+    .Main-slider .main-slider-content .btn-slider {
+        font-size: 12px;
+        height: 35px;
+        width: 170px;
+    }
+
+
+    .categories-gallery-btn {
+
+        font-size: 12px;
+        height: 30px;
+        width: 145px;
+        margin-top: 20px;
+    }
+
+
+    .filters-offcanvas-warpaer .navbar-toggler {
+        display: block;
+    }
+
+    .filters-offcanvas-warpaer .offcanvas-collapse {
+        position: fixed;
+        z-index: 5;
+    }
+
+    .listing-products-wraper .navbar-toggler {
+        display: block;
+    }
+
+
+    .shopping-cart-wraper .cart-body-wraper .cart-product-remove {
+        position: absolute;
+        right: 10%;
+    }
+
+    .shopping-cart-wraper .cart-wraper .cart-product {
+        margin-bottom: 20px;
+    }
+
+    .shopping-cart-wraper .shopping-cart-sidebar-heading {
+        text-align: start;
+    }
+
+    .shopping-cart-wraper .cart-wraper .cart-table-head h4 {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer-top-wraper .content-top h3, .footer-top-wraper .content-bottom h3 {
+        font-size: 15px;
+    }
+
+    .footer-top-wraper .content-top ul li a {
+        font-size: 12px;
+    }
+
+    .footer-top-wraper .content-top ul li a span img {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .content-bottom ul li {
+        margin-right: 7px;
+    }
+
+    .detail-wraper .detail-product-info {
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    .Main-slider .main-slider-slide .slider-img img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .Main-slider .main-slider-content {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-35%, -50%);
+    }
+
+    .main-slider-content h2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .main-slider-content h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .popular-goods-heading h2 {
+        margin: 20px 0;
+    }
+
+    .discount-section-wraper .discount-section-text-pannel {
+        margin-right: 0;
+    }
+
+    .discount-section-wraper .discount-section-text-pannel h3 {
+        font-size: 20px;
+
+    }
+
+    .categories-gallery-btn {
+        font-size: 10px;
+        height: 25px;
+        width: 125px;
+        margin-top: 14px;
+    }
+
+    .categories-gallery-btn-wraper h6 {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+
+    .discount-section-wraper .discount-section-text-pannel {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .main-slider-content h2 {
+        font-size: 20px;
+    }
+
+    .main-slider-content h4 {
+        font-size: 16px;
+
+    }
+
+    .categories-gallery-btn {
+        font-size: 14px;
+        height: 45px;
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .Product-categories-gallery-wraper {
+        padding-bottom: 15px;
+    }
+
+    .Product-categories-wraper {
+        padding-bottom: 30px;
+    }
+
+    .Testimonials-section-wraper {
+        padding-bottom: 40px;
+    }
+
+    .footer-top-wraper .content-top h3, .footer-top-wraper .content-bottom h3 {
+        font-size: 22px;
+    }
+
+    .footer-top-wraper .content-top ul li a {
+        font-size: 16px;
+    }
+
+    .footer-top-wraper .content-bottom h3 {
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+
+    .footer-top-wraper {
+        padding: 0px 0 40px 0;
+    }
+
+    .bottom-content-wraper {
+        padding-top: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 525px) {
+
+    .Main-slider .main-slider-content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-35%, -50%);
+    }
+
+    .Testimonials-section-wraper .Testimonial-card {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .Testimonial-card .Testimonial-review-section .Testimonial-review-rating {
+        justify-content: center;
+    }
+
+    .cart-body .detail-product-counter .minus, .plus {
+        width: 20px;
+        height: 20px;
+    }
+
+    .cart-body .detail-product-counter input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .cart-body .detail-product-counter input {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .news-letter-wraper .news-letter-content .top-search-custom-style .navBarSearchForm {
+        width: 100% !important;
+    }
+
+    .news-letter-wraper .news-letter-content .top-search-custom-style .top-search-custom-btn {
+        width: 100%;
+    }
+
+    .news-letter-wraper .news-letter-content h3 {
+        font-size: 25px;
+    }
+
+    .news-letter-wraper .news-letter-content .news-letter-check-box {
+        padding-top: 0;
+    }
+
+    .filters-offcanvas-warpaer .offcanvas-collapse {
+        width: 235px !important;
+    }
+
+}
+
+
+
+/*Mega Menu Media Querires*/
+
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+
+
+        left: 133px;
+        right: 0;
+        width: 950px;
+        margin-top: 0;
+        box-shadow: 0px 12px 9px rgb(0 36 162 / 20%);
+
+    }
+
+    .filters-offcanvas-warpaer .offcanvas-collapse {
+        position: relative;
+    }
+
+    .filters-offcanvas-warpaer .offcanvas-collapse.open {
+        left: 0;
+        visibility: visible;
+    }
+
+}
+
+
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+
+@media(max-width: 576px) {
+
+    .listing-wraper .listing-products-wraper .listing-product {
+
+        margin: 0 100px 15px 100px;
+    }
+}
+
+@media(max-width: 490px) {
+
+    .listing-wraper .listing-products-wraper .listing-product {
+
+        margin: 0 0px 15px 0px;
+    }
+
+    .detail-page-tabs .ul#pills-tab {
+        flex-wrap: nowrap;
+    }
+
+    .detail-page-tabs .nav-item .nav-link {
+
+        padding: 0.3rem 0.3rem;
+
+    }
+}
