@@ -72,11 +72,16 @@
 
     position: absolute;
     top: 42%;
-    background-color: #FFB016 !important;
+    background: linear-gradient(265.67deg, #FFB016 -12.99%, #FBAE53 98.16%) !important;
     width: 35px;
     height: 35px;
     transform: translate(-0%, -42%);
     border-radius: 50% !important;
+}
+
+.Testimonial-slider .owl-prev:hover, .Testimonial-slider .owl-next:hover {
+
+    background: linear-gradient(214.16deg, #A2BBFC 9.26%, #9AB4F7 85.39%) !important;
 }
 
 .Testimonial-slider .owl-prev {
@@ -85,4 +90,9 @@
 
 .Testimonial-slider .owl-next {
     right: -1.6%;
+}
+
+.Testimonials-section-wraper .owl-theme .owl-dots .owl-dot span, .owl-theme .owl-dots .owl-dot:hover span {
+
+    border-color: black;
 }

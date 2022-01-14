@@ -120,7 +120,8 @@
 .Popular-goods-wraper .Popular-goods .Popular-goods-product-wraper .product-cart-btn,
 .listing-product .Popular-goods-product-wraper .product-cart-btn,
 .Newly-arrived .Popular-goods .Popular-goods-product-wraper .product-cart-btn {
-    background-color: #FFB016 !important;
+    background: linear-gradient(265.67deg, #FFB016 -12.99%, #FBAE53 98.16%);
+
     height: 60px;
     display: block;
     justify-content: center;
@@ -130,12 +131,23 @@
     font-weight: 500;
     color: #2F3B49;
     text-decoration: none;
-    transition: all 2s ease;
+    
     width: 90%;
-    transform: translate(13px, -10px);
+    transform: translate(5%, -3px);
 
 
 }
+
+/* .Popular-goods-wraper .Popular-goods .Popular-goods-product-wraper .product-cart-btn:hover,
+.listing-product .Popular-goods-product-wraper .product-cart-btn:hover,
+.Newly-arrived .Popular-goods .Popular-goods-product-wraper .product-cart-btn:hover {
+
+
+    background: linear-gradient(263.77deg, #2F3B49 0%, #293543 99.13%);
+    color: white;
+
+
+} */
 
 .Newly-arrived .Popular-goods .Popular-goods-product-wraper:hover .product-cart-btn,
 .listing-product .Popular-goods-product-wraper:hover .product-cart-btn,

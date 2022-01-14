@@ -41,15 +41,13 @@
     width: 135px;
 }
 
-.news-letter-wraper .news-letter-content .news-letter-check-box {
+ .news-letter-wraper .news-letter-content .news-letter-check-box {
 
-    padding-top: 15px;
-    font-size: 15px;
-    font-weight: 400;
-    background-color: transparent;
+   margin-top: 10px;
+   font-weight: 400;
 }
 
-
+/*
 .news-letter-wraper .news-letter-content .news-letter-check-box .form-check-input::before {
     
         top: 0.1rem;
@@ -59,9 +57,12 @@
         background-color: #7f393900;
         border: 1px solid #007bff;
     
-}
+}*/
+
+
 
 .news-letter-wraper .news-letter-content .news-letter-check-box a {
     color: #A2BBFC;
     text-decoration: none;
-}
+    font-weight: 600;
+} 

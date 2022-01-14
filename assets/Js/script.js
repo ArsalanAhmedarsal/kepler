@@ -45,9 +45,7 @@ $('.Popular-goods').owlCarousel({
             items: 1
         },
 
-        430: {
-            items: 2
-        },
+      
 
         500: {
             items: 2

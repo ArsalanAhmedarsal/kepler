@@ -1,0 +1,64 @@
+.not-found-page-wraper {
+    margin: 170px 0;
+}
+
+.not-found-page-wraper .not-found-content {
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+}
+
+.not-found-page-wraper .not-found-content .not-found-content-right {
+    max-width: 440px;
+    width: 300px;
+    /* height: auto; */
+    position: absolute;
+    /* right: 0; */
+    /* bottom: 0; */
+    flex: 1;
+    top: -150px;
+    left: 64%;
+    transform: translate(-50%, 0%);
+}
+
+.not-found-page-wraper .not-found-content .not-found-content-left {
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    /* flex: 1; */
+    /* margin: 0 auto; */
+    left: 50%;
+    transform: translate(-50%, 10px);
+}
+
+.not-found-page-wraper .not-found-content .not-found-content-left h4 {
+
+    font-family: 'Merriweather', serif;
+    color: #080910;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.not-found-page-wraper .not-found-content .not-found-content-left .btn-slider span img {
+
+    transform: rotate(180deg);
+}
+.not-found-page-wraper .not-found-content .not-found-content-left .btn-slider {
+    margin-top: 35px;
+    margin: 0 auto;
+}
+.not-found-page-wraper .not-found-content .not-found-content-left .btn-slider:hover{
+    color: white;
+}
+
+.not-found-page-wraper .not-found-content .not-found-content-left p {
+
+    color: #414351;
+    font-size: 16px;
+    font-weight: 400;
+}

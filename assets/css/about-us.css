@@ -1,0 +1,14 @@
+.about-us-wraper {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.about-us-wraper h4 {
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+    color: #080910;
+}
+
+.about-us-wraper  .about-us-content {
+    padding-top: 30px;
+}

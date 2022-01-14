@@ -246,12 +246,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 
 }
 
 .listing-wraper .listing-products-wraper .pagination-categires .page-link:focus {
 
     box-shadow: none;
+}
+
+
+.listing-wraper .listing-products-wraper .pagination-categires .page-link:hover {
+
+   background-color: #A2BBFC;
+   transition: all 0.3s ease;
 }
 
 .listing-wraper .listing-products-wraper .pagination-categires .pagination-btn {

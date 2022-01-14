@@ -37,6 +37,7 @@
         width: 70% !important;
     }
 
+    
 
 }
 
@@ -153,6 +154,14 @@
         font-size: 14px;
     }
 
+    .order-page-wraper .order-page-sidebar {
+        margin-top: 30px;
+    }
+
+    .order-page-wraper .order-page-from-wraper .form-address-heading::before {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -179,7 +188,16 @@
         margin-top: 60px;
     }
 
+    .order-page-wraper .order-page-from-wraper h3::before {
+        width: 35%;
+    }
+
+    .order-page-wraper .order-page-from-wraper .form-address-heading::before {
+        width: 60%;
+    }
 }
+
+
 
 @media screen and (max-width: 667px) {
 
@@ -227,6 +245,14 @@
 
     .categories-gallery-btn-wraper h6 {
         font-size: 14px;
+    }
+
+    .order-page-wraper .order-page-from-wraper h3::before {
+        display: none;
+    }
+
+    .order-page-wraper .order-page-from-wraper .form-address-heading::before {
+       display: none;
     }
 
 }
@@ -316,7 +342,8 @@
         justify-content: center;
     }
 
-    .cart-body .detail-product-counter .minus, .plus {
+    .cart-body .detail-product-counter .minus, 
+    .cart-body .detail-product-counter .plus {
         width: 20px;
         height: 20px;
     }
@@ -427,3 +454,150 @@
 
     }
 }
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+    .cart-body-wraper .detail-product-counter .minus, 
+    .cart-body-wraper .detail-product-counter .plus {
+
+        width: 22px;
+        height: 22px;
+    }
+
+    .detail-product-counter input {
+        width: 22px;
+        height: 22px;
+        font-size: 14px;
+    }
+    .order-page-wraper .order-page-from-wraper h3::before {
+        width: 49%;
+    }
+
+    .order-page-wraper .order-page-from-wraper .form-address-heading::before {
+        width: 73%;
+    }
+
+
+}
+
+
+@media(max-width: 767px) {
+
+    .not-found-page-wraper .not-found-content {
+        background-color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 30px;
+        height: 400px;
+        position: relative;
+    }
+    
+    .not-found-page-wraper .not-found-content .not-found-content-right {
+        max-width: 440px;
+        width: 300px;
+        /* height: auto; */
+        position: absolute;
+        /* right: 0; */
+        /* bottom: 0; */
+        flex: 1;
+        top: -150px;
+        left: 54%;
+        transform: translate(-50%, 0%);
+    }
+    
+    .not-found-page-wraper .not-found-content .not-found-content-left {
+        width: 90%;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        /* flex: 1; */
+        /* margin: 0 auto; */
+        left: 50%;
+        transform: translate(-50%, 10px);
+    }
+    
+
+
+}
+
+@media(min-width: 768px) {
+
+    .not-found-page-wraper .not-found-content {
+        background-color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 30px;
+        height: 250px;
+        position: relative;
+    }
+    
+    .not-found-page-wraper .not-found-content .not-found-content-right {
+        max-width: 440px;
+        width: 390px;
+        /* height: auto; */
+        position: absolute;
+        /* right: 0; */
+        /* bottom: 0; */
+        flex: 1;
+        top: -245px;
+        left: 54%;
+        transform: translate(0, 30%);
+    }
+    
+    .not-found-page-wraper .not-found-content .not-found-content-left {
+        width: 65%;
+        text-align: start;
+        position: absolute;
+        top: 45%;
+        /* flex: 1; */
+        /* margin: 0 auto; */
+        left: 39%;
+        transform: translate(-50%, -34%);
+    }
+
+    .not-found-page-wraper .not-found-content .not-found-content-left .btn-slider {
+        margin: 0;
+    
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+   
+
+    .not-found-page-wraper .not-found-content .not-found-content-right {
+        max-width: 440px;
+        width: 375px;
+        /* height: auto; */
+        position: absolute;
+        /* right: 0; */
+        /* bottom: 0; */
+        flex: 1;
+        top: -229px;
+        left: 46%;
+        transform: translate(0, 30%);
+    }
+
+    .not-found-page-wraper .not-found-content .not-found-content-left {
+        width: 54%;
+        text-align: start;
+        position: absolute;
+        top: 45%;
+        /* flex: 1; */
+        /* margin: 0 auto; */
+        left: 39%;
+        transform: translate(-61%, -40%);
+    }
+
+    .order-page-wraper .order-page-from-wraper h3::before {
+        width: 48%;
+    }
+
+    .order-page-wraper .order-page-from-wraper .form-address-heading::before {
+        width: 70%;
+    }
+}
+
+

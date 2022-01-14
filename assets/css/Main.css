@@ -12,6 +12,9 @@
 @import url("range-default-theme.css");
 @import url("detail.css");
 @import url("shopping-cart.css");
+@import url("order-page.css");
+@import url("about-us.css");
+@import url("404.css");
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -32,7 +35,18 @@ body {
     bottom: 0;
 } */
 
+ .owl-prev,  .owl-next {
+    
+    background: linear-gradient(265.67deg, #FFB016 -12.99%, #FBAE53 98.16%) !important;
+    /* shadow orange */
 
+    box-shadow: 0px 3px 9px rgba(255, 101, 65, 0.2) !important;
+    
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background: linear-gradient(214.16deg, #A2BBFC 9.26%, #9AB4F7 85.39%) !important;
+}
 
 
 

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/css/Main.css">
     <link rel="stylesheet" href="assets/css/Responsive.css">
-    <title> Cart</title>
+    <title>User Registration</title>
 </head>
 
 <body>
@@ -296,8 +296,9 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Main Page</a></li>
-                            <li class="breadcrumb-item"><a href="#">Schmuck</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Warenkorb</a></li>
+                          
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Benutzer Registration</a>
+                            </li>
                         </ol>
                     </nav>
                 </div>
@@ -305,275 +306,179 @@
         </div>
     </div>
 
+    <div class="">
 
-    <div class="shopping-cart-wraper">
 
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-9">
-                    <h4 class="shopping-cart-bodt-heading">Warenkorb</h4>
-                    <div class="cart-wraper">
-                        <div class="cart-table-head">
+        <div class="order-page-wraper">
+            <div class="container">
+                <h4 class="text-center">Benutzer Registration</h4>
+                <div class="row no-gutters">
+                    <div class="offset-lg-2 col-lg-8">
 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-5 col-md-12">
-                                        <h4>Product</h4>
+                        <div class="order-page-from-wraper">
+                            <form>
+                                <h3> Persönliche Informationen</h3>
+                                <h6>Anrede*</h6>
+                                <div class="from-radio-btns">
+
+                                    <div class="form-check">
+
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Frau
+                                        </label>
+
+
+
                                     </div>
-                                    <div class="col-lg-2 col-4">
-                                        <h4>Stückpreis </h4>
+
+
+                                    <div class="form-check">
+
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios2" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Herr
+                                        </label>
+
                                     </div>
-                                    <div class="col-lg-2 col-4">
-                                        <h4>Anzahl</h4>
+
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios3" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            Keine Angabe
+                                        </label>
+
                                     </div>
-                                    <div class="col-lg-2 col-4">
-                                        <h4>Summe</h4>
+
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Vorname*</label>
+                                        <input type="text" class="form-control" id="inputEmail4"
+                                            placeholder="Vorname eingeben">
+                                        <div class="form-check form-check-custom">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                            <label class="form-check-label" for="gridCheck2">
+                                                <span class="order-page-form-instruct-text">
+                                                    Die mit einem Stern (*)
+                                                    markierten Felder sind .
+                                                </span>
+
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword5">Nachname*</label>
+                                        <input type="password" class="form-control" id="inputPassword5" placeholder="Nachname eingeben">
                                     </div>
                                 </div>
-                            </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail5">Neue E-Mail-Adresse*</label>
+                                        <input type="text" class="form-control" id="inputEmail5"
+                                            placeholder="Neue E-Mail-Adresse eingeben">
+
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Passwort*</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                        <span class="order-page-form-instruct-text">
+                                            Die mit einem Stern (*)
+                                            markierten Felder sind .
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <h3 class="form-address-heading"> Ihre Adresse</h3>
 
 
 
 
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">Straße und Hausnummer*</label>
+                                        <input type="text" class="form-control" id="inputCity"
+                                            placeholder="Straße und Hausnummer eingeben">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputZip">PLZ*</label>
+                                        <input type="text" class="form-control" id="inputZip"
+                                            placeholder="Postleitzahl eingeben">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputZip">Ort*</label>
+                                        <input type="text" class="form-control" id="inputZip"
+                                            placeholder="Ort eingeben">
+                                    </div>
+                                </div>
 
 
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState">Land*</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Land auswahlen</option>
+                                            <option>...</option>
+                                            <option>...</option>
+                                        </select>
+                                        <div class="form-check form-check-custom">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                <span class="order-page-form-instruct-text">
+                                                    Die mit einem Stern (*)
+                                                    markierten Felder sind .
+                                                </span>
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="form-group col-md-6 align-self-end">
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="autoSizingCheck3">
+                                            <label class="form-check-label" for="autoSizingCheck3">
+                                                Ich habe die <span><a href="#">Datenschutzbestimmungen</a></span> zur Kenntnis genommen.
+
+                                            </label>
+
+                                        </div>
+                                        <span class="order-page-form-instruct-text">
+                                            Die mit einem Stern (*)
+                                            markierten Felder sind .
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="row justify-content-center">
+                                    <button type="submit" class="btn btn-primary order-page-btn">
+                                        <img src="assets/Img/check-mark.svg" alt="">
+                                        Weiter</button>
+                                </div>
+                            </form>
                         </div>
-
-                        <div class="cart-body-wraper">
-
-
-                            <div class="cart-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-md-10 col-11">
-                                            <div class="cart-product">
-                                                <div class="cart-product-thumb">
-                                                    <img src="assets/Img/image 13.png" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="cart-product-name">Nklaus Gold-Plated Pendant 925 Sterling
-                                                    Silver Kreuzfix Orthodox Russian 4503 Christening</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-quantity detail-product-counter">
-                                                <div class="number">
-                                                    <span class="minus">-</span>
-                                                    <input type="text" value="1">
-                                                    <span class="plus">+</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-price">
-                                                99,19 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-subtotal">
-                                                99,19 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-1 col-md-1 col-1 cart-product-remove">
-                                            
-                                                <a href="#"><img src="assets/Img/cancel-btn.svg" alt=""></a>
-                                            
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-                            
-                         
-                            <div class="cart-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-md-10 col-11">
-                                            <div class="cart-product">
-                                                <div class="cart-product-thumb">
-                                                    <img src="assets/Img/image 18.png" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="cart-product-name">Pair of stud earrings, gold, 585 cubic zirconia, women, men, children</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-quantity detail-product-counter">
-                                                <div class="number">
-                                                    <span class="minus">-</span>
-                                                    <input type="text" value="1">
-                                                    <span class="plus">+</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-price">
-                                                22,61 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-subtotal">
-                                                22,61 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-1 col-md-1 col-1 cart-product-remove">
-                                            
-                                                <a href="#"><img src="assets/Img/cancel-btn.svg" alt=""></a>
-                                            
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="cart-body">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-md-10 col-11">
-                                            <div class="cart-product">
-                                                <div class="cart-product-thumb">
-                                                    <img src="assets/Img/image 14.png" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="cart-product-name">Curb Chain / 925 Sterling Silver/ 2.10 mm Wide</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-quantity detail-product-counter">
-                                                <div class="number">
-                                                    <span class="minus">-</span>
-                                                    <input type="text" value="1">
-                                                    <span class="plus">+</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-price">
-                                                59,60 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-4 col-4">
-                                            <div class="cart-product-subtotal">
-                                                59,60 €
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-1 col-md-1 col-1 cart-product-remove">
-                                            
-                                                <a href="#"><img src="assets/Img/cancel-btn.svg" alt=""></a>
-                                            
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="cart-body-footer-btns">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="shopping-cart-button-wraper">
-
-                                                <form class="form-inline  my-lg-0">
-                                                    <input class="form-control mr-sm-2" type="search"
-                                                        placeholder="Productnummer eingeben" aria-label="Search" id="">
-                                                    <button class="btn  my-2 my-sm-0 " type="submit">
-                                                        <span><img src="assets/Img/shopping-cart btn tick.svg"
-                                                                alt=""></span>
-
-                                                    </button>
-                                                </form>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 align-self-center">
-                                            <div class="shopping-cart-shipping-cost">
-                                                <a href="#"> Versandcosten
-                                                    <span>
-                                                        <img src="assets/Img/shipping cost-arrow.svg" alt="">
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="col-lg-3">
-                    <h4 class="shopping-cart-sidebar-heading">2 product</h4>
-                    <div class="cart-sidebar-wraper">
-                        <div class="cart-sidebar-summery">
-                            Zusammenfassung
-                        </div>
-                        <ul>
-                            <li>Zwischensumme: 130,68 €</li>
-                            <li>Versandkosten: 00,00 €</li>
-                            <li><span>Gesamtsumme: 130,68 €</span></li>
-                            <li>Gesamtnettosumme: 130,68 €</li>
-                            <li>zzgl. 0 % MwSt.: 00,00 €</li>
-                        </ul>
-
-
-
-                   
-
-                    <div class="shopping-cart-button-wraper">
-
-                        <form class="form-inline  my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Gutschein-code"
-                                aria-label="Search" id="">
-                            <button class="btn  my-2 my-sm-0 " type="submit">
-                                <span><img src="assets/Img/shopping-cart btn tick.svg" alt=""></span>
-
-                            </button>
-                        </form>
-
-                        <button class="continue-to-checkout-btn" type="submit">
-                            <span><img src="assets/Img/cehckout-btn.svg" alt=""></span>
-                            Weiter Zur Kasse
-                        </button>
 
 
                     </div>
 
-                </div>
+
 
 
                 </div>
             </div>
         </div>
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <div class="footer-wraper">

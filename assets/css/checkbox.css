@@ -31,6 +31,8 @@
     border-radius: 0px;
 }
 
+
+
 .sidebar .control:hover input~.control_indicator,
 .sidebar .control input:focus~.control_indicator {
     background: #ffffff;
@@ -62,7 +64,8 @@
     display: block;
 }
 
-.sidebar .control-checkbox .control_indicator:after {
+.sidebar .control-checkbox .control_indicator:after,
+.form-check-input::after {
   
         left: 6px;
         top: 1px;

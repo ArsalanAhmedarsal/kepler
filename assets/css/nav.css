@@ -44,6 +44,10 @@
 
 .top-search-custom-style .form-control:focus, .btn.focus, .btn:focus {
     box-shadow: none !important;
+    
+}
+.top-search-custom-style .form-control:focus {
+    background-color: white;
 }
 
 .top-search-custom-style .navBarSearchForm {

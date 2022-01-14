@@ -125,7 +125,7 @@
     margin-bottom: 0;
 }
 
-.detail-action-card {}
+/* .detail-action-card {} */
 
 .detail-wraper .detail-product-info .detail-product-counter .detail-action-card .detial-product-cart-btn {
     background-color: #FFB016 !important;
@@ -219,4 +219,9 @@
 .detail-page-tabs .Testimonial-slider>.owl-thumbs {
 
     display: none !important;
+}
+
+
+.detail-page-tabs .Testimonials-section-wraper {
+    padding-bottom: 0;
 }

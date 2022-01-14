@@ -36,12 +36,17 @@
 }
 
 .discount-section-wraper .discount-section-text-pannel .discount-section-btn {
-    background-color: #2F3B49;
+    
+    background: linear-gradient(263.77deg, #2F3B49 0%, #293543 99.13%);
     color: white;
     border-radius: 0;
     font-size: 12px;
     filter: drop-shadow(0px 3px 9px rgba(0, 36, 162, 0.2));
     padding: 12px 15px;
+}
+
+.discount-section-wraper .discount-section-text-pannel .discount-section-btn:hover {
+    background: linear-gradient(267.03deg, #4724AA -3.97%, #1F3CA3 114.87%);
 }
 
 .discount-section-wraper .discount-section-text-pannel .discount-section-btn span {
